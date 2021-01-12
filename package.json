@@ -1,5 +1,5 @@
 {
-  "name": "survey-analytics",
+  "name": "survey-analytics-angular-example",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -20,6 +20,8 @@
     "@angular/platform-browser-dynamic": "~8.0.0",
     "@angular/router": "~8.0.0",
     "rxjs": "~6.4.0",
+    "survey-analytics": "^1.8.23",
+    "survey-angular": "^1.8.23",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
   },
@@ -43,5 +45,10 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }
